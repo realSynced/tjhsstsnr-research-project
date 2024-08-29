@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9f588cdb-fe8b-44bb-b9f7-964867552207"
+      }
+    },
+    "owner": "dricc"
   }
 }
