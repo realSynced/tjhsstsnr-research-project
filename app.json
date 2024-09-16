@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "snr-research-ecocash",
-    "slug": "snr-research-ecocash",
+    "name": "ecocash",
+    "slug": "ecocash",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "ecocash",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
