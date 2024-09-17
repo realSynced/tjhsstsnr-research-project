@@ -21,7 +21,7 @@ export default function Index() {
             <Text className="text-white font-semibold">Sign In</Text>
           </TouchableOpacity>
           <TouchableOpacity
-            className="bg-green-500 py-3 px-6 rounded-lg"
+            className="bg-green py-3 px-6 rounded-lg"
             onPress={() => router.push('/sign-up')}
           >
             <Text className="text-white font-semibold">Get Started</Text>

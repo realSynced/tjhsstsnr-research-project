@@ -36,10 +36,10 @@ const SignUp = () => {
             onChangeText={setPassword}
           />
           <TouchableOpacity
-            className="w-full bg-green-500 rounded-lg py-3 px-4 mb-4"
+            className="w-full bg-green rounded-lg py-3 px-4 mb-4"
             onPress={() => router.push('/home')}
           >
-            <Text className="text-white text-center font-semibold">Sign Up</Text>
+            <Text className="text-black text-center font-semibold">Sign Up</Text>
           </TouchableOpacity>
           <View className="flex-row">
             <Text className="text-gray-600">Already have an account? </Text>

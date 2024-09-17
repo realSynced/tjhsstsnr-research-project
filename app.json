@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ecocash",
-    "slug": "ecocash",
+    "slug": "snr-research-ecocash",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.snrresearch.ecocash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.snrresearch.ecocash"
     },
     "web": {
       "bundler": "metro",
