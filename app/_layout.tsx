@@ -2,6 +2,11 @@ import { Slot, SplashScreen, Stack } from 'expo-router'
 import { useEffect, useState } from 'react'
 import { useFonts } from 'expo-font'
 
+/*
+  Image CV
+  https://www.youtube.com/watch?v=iOTWZI4RHA8
+*/
+
 export default function RootLayout() {
   const [fontsLoaded, error] = useFonts({
     "Poppins-Black": require("../assets/fonts/Poppins-Black.ttf"),
