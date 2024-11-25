@@ -64,7 +64,6 @@ class TrashLogEntry:
     id: str
     user_id: str
     trash_type: str
-    weight: float
     location: Location
     image_url: Optional[str]
     points_earned: int
