@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+  // NOTE: Update this to include the paths to all of your component files.
+  content: ["./app/**/*.{js,jsx,ts,tsx}"],
+  presets: [require("nativewind/preset")],
   theme: {
     extend: {
       colors: {
@@ -9,7 +11,7 @@ module.exports = {
         accent: "#52F3A1",
         green: "#22c55e",
         background: "#F7FEEC",
-        textColor: "152202"
+        textColor: "152202",
       },
       fontFamily: {
         pthin: ["Poppins-Thin", "sans-serif"],

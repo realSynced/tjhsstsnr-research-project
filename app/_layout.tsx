@@ -1,6 +1,7 @@
-import { Slot, SplashScreen, Stack } from 'expo-router'
-import { useEffect, useState } from 'react'
-import { useFonts } from 'expo-font'
+import { Slot, SplashScreen, Stack } from "expo-router";
+import { useEffect, useState } from "react";
+import { useFonts } from "expo-font";
+import "../global.css";
 
 /*
   Image CV
@@ -20,13 +21,14 @@ export default function RootLayout() {
     "Poppins-Thin": require("../assets/fonts/Poppins-Thin.ttf"),
   });
 
-  useEffect( () => {
+  useEffect(() => {
     if (error) throw error;
-    if(fontsLoaded) SplashScreen.hideAsync()
-  }), [fontsLoaded]
+    if (fontsLoaded) SplashScreen.hideAsync();
+  }),
+    [fontsLoaded];
 
-  if(!fontsLoaded && !error) return null;
-  
+  if (!fontsLoaded && !error) return null;
+
   return (
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
